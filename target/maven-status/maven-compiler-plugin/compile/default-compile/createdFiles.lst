@@ -1,0 +1,11 @@
+org\guanzon\validators\CasValidators.class
+org\guanzon\validators\client\Validator_Client_Mobile.class
+org\guanzon\validators\client\Validator_Client_Address.class
+org\guanzon\validators\client\Validator_Client_Mail.class
+org\guanzon\validators\ValidatorFactory$TYPE.class
+org\guanzon\validators\ValidatorFactory$1.class
+org\guanzon\validators\client\Validator_Client_Institution_Contact.class
+org\guanzon\validators\ValidatorInterface.class
+org\guanzon\validators\client\Validator_Client_Master.class
+org\guanzon\validators\ValidatorFactory.class
+org\guanzon\validators\client\Validator_Client_Social_Media.class
