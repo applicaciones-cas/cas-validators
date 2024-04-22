@@ -34,6 +34,10 @@ public class Validator_Client_Mail implements ValidatorInterface {
             return false;
         }
         
+        if (poEntity.getEmailID().isEmpty()){
+            psMessage = "Email ID is not set.";
+            return false;
+        }
         if (poEntity.getEmail().isEmpty()){
             psMessage = "Email is not set.";
             return false;
