@@ -1,9 +1,9 @@
-package org.guanzon.validators.client;
+package org.guanzon.cas.validators.client;
 
 import org.guanzon.appdriver.base.GRider;
-import org.guanzon.clients.Model_Client_Master;
-import org.guanzon.clients.Model_Client_Mobile;
-import org.guanzon.validators.ValidatorInterface;
+import org.guanzon.cas.model.clients.Model_Client_Master;
+import org.guanzon.cas.model.clients.Model_Client_Mobile;
+import org.guanzon.cas.validators.ValidatorInterface;
 
 /**
  *

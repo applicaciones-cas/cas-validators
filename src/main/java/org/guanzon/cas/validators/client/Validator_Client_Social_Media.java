@@ -2,12 +2,12 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package org.guanzon.validators.client;
+package org.guanzon.cas.validators.client;
 
 import org.guanzon.appdriver.base.GRider;
-import org.guanzon.clients.Model_Client_Mobile;
-import org.guanzon.clients.Model_Client_Social_Media;
-import org.guanzon.validators.ValidatorInterface;
+import org.guanzon.cas.model.clients.Model_Client_Mobile;
+import org.guanzon.cas.model.clients.Model_Client_Social_Media;
+import org.guanzon.cas.validators.ValidatorInterface;
 
 /**
  *
