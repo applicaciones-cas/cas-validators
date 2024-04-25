@@ -44,7 +44,8 @@ public class Validator_Client_Master implements ValidatorInterface {
             psMessage = "Client full name is not set.";
             return false;
         }
-        if (poEntity.getBirthDate().toString().isEmpty()){
+        
+        if (poEntity.getBirthDate() == null){
             psMessage = "Client birth date is not set.";
             return false;
         }
