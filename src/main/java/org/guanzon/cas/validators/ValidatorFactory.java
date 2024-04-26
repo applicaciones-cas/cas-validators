@@ -1,7 +1,7 @@
-package org.guanzon.validators;
+package org.guanzon.cas.validators;
 
-import org.guanzon.validators.client.Validator_Client_Master;
-import org.guanzon.validators.client.Validator_Client_Mobile;
+import org.guanzon.cas.validators.client.Validator_Client_Master;
+import org.guanzon.cas.validators.client.Validator_Client_Mobile;
 
 /**
  *

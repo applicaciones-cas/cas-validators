@@ -1,4 +1,4 @@
-package org.guanzon.validators;
+package org.guanzon.cas.validators;
 
 import org.guanzon.appdriver.base.GRider;
 

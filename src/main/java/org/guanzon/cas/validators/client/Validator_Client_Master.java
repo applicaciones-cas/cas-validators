@@ -1,8 +1,8 @@
-package org.guanzon.validators.client;
+package org.guanzon.cas.validators.client;
 
 import org.guanzon.appdriver.base.GRider;
-import org.guanzon.clients.Model_Client_Master;
-import org.guanzon.validators.ValidatorInterface;
+import org.guanzon.cas.model.clients.Model_Client_Master;
+import org.guanzon.cas.validators.ValidatorInterface;
 
 /**
  *
@@ -42,6 +42,11 @@ public class Validator_Client_Master implements ValidatorInterface {
         
         if (poEntity.getFullName().isEmpty()){
             psMessage = "Client full name is not set.";
+            return false;
+        }
+        
+        if (poEntity.getBirthDate() == null){
+            psMessage = "Client birth date is not set.";
             return false;
         }
         
