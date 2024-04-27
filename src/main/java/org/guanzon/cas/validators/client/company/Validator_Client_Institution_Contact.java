@@ -1,4 +1,4 @@
-package org.guanzon.cas.validators.client.standard;
+package org.guanzon.cas.validators.client.company;
 
 import org.guanzon.cas.validators.client.*;
 import org.guanzon.appdriver.base.GRider;
@@ -10,13 +10,13 @@ import org.guanzon.cas.validators.ValidatorInterface;
  *
  * @author Michael Cuison
  */
-public class Validator_Client_Institution_Contact_Standard implements ValidatorInterface {
+public class Validator_Client_Institution_Contact implements ValidatorInterface {
     GRider poGRider;
     String psMessage;
     
     Model_Client_Institution_Contact poEntity;
     
-    public Validator_Client_Institution_Contact_Standard(Object foValue){
+    public Validator_Client_Institution_Contact(Object foValue){
         poEntity = (Model_Client_Institution_Contact) foValue;
     }
     

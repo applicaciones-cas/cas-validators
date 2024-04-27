@@ -1,5 +1,6 @@
-package org.guanzon.cas.validators.client;
+package org.guanzon.cas.validators.client.individual;
 
+import org.guanzon.cas.validators.client.*;
 import org.guanzon.appdriver.base.GRider;
 import org.guanzon.cas.model.clients.Model_Client_Master;
 import org.guanzon.cas.validators.ValidatorInterface;
@@ -47,6 +48,15 @@ public class Validator_Client_Master implements ValidatorInterface {
         
         if (poEntity.getBirthDate() == null){
             psMessage = "Client birth date is not set.";
+            return false;
+        }
+        
+        if (poEntity.getTaxIDNumber().isEmpty()){
+            psMessage = "Client TIN ID No. is not set.";
+            return false;
+        }
+        if (poEntity.getLTOIDNumber().isEmpty()){
+            psMessage = "Client LTO ID No. is not set.";
             return false;
         }
         

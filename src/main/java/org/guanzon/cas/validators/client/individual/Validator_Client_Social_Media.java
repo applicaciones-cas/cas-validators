@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package org.guanzon.cas.validators.client.standard;
+package org.guanzon.cas.validators.client.individual;
 
 import org.guanzon.cas.validators.client.*;
 import org.guanzon.appdriver.base.GRider;
@@ -14,13 +14,13 @@ import org.guanzon.cas.validators.ValidatorInterface;
  *
  * @author User
  */
-public class Validator_Client_Social_Media_Standard implements ValidatorInterface {
+public class Validator_Client_Social_Media implements ValidatorInterface {
     GRider poGRider;
     String psMessage;
     
     Model_Client_Social_Media poEntity;
     
-    public Validator_Client_Social_Media_Standard(Object foValue){
+    public Validator_Client_Social_Media(Object foValue){
         poEntity = (Model_Client_Social_Media) foValue;
     }
     
