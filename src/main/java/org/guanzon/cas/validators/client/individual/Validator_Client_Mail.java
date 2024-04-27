@@ -1,5 +1,6 @@
-package org.guanzon.cas.validators.client;
+package org.guanzon.cas.validators.client.individual;
 
+import org.guanzon.cas.validators.client.*;
 import org.guanzon.appdriver.base.GRider;
 import org.guanzon.cas.model.clients.Model_Client_Mail;
 import org.guanzon.cas.model.clients.Model_Client_Master;

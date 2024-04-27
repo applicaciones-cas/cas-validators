@@ -1,8 +1,7 @@
-package org.guanzon.cas.validators.client.standard;
+package org.guanzon.cas.validators.client.company;
 
 import org.guanzon.cas.validators.client.*;
 import org.guanzon.appdriver.base.GRider;
-import org.guanzon.cas.model.clients.Model_Client_Mail;
 import org.guanzon.cas.model.clients.Model_Client_Master;
 import org.guanzon.cas.model.clients.Model_Client_Mobile;
 import org.guanzon.cas.validators.ValidatorInterface;
@@ -11,14 +10,14 @@ import org.guanzon.cas.validators.ValidatorInterface;
  *
  * @author Michael Cuison
  */
-public class Validator_Client_Mail_Standard implements ValidatorInterface {
+public class Validator_Client_Mobile implements ValidatorInterface {
     GRider poGRider;
     String psMessage;
     
-    Model_Client_Mail poEntity;
+    Model_Client_Mobile poEntity;
     
-    public Validator_Client_Mail_Standard(Object foValue){
-        poEntity = (Model_Client_Mail) foValue;
+    public Validator_Client_Mobile(Object foValue){
+        poEntity = (Model_Client_Mobile) foValue;
     }
     
     @Override
@@ -28,19 +27,18 @@ public class Validator_Client_Mail_Standard implements ValidatorInterface {
 
     @Override
     public boolean isEntryOkay() {
-
+        if (poEntity.getMobileID().isEmpty()){
+            psMessage = "Mobile ID is not set.";
+            return false;
+        }
         
         if (poEntity.getClientID().isEmpty()){
             psMessage = "Client ID is not set.";
             return false;
         }
         
-        if (poEntity.getEmailID().isEmpty()){
-            psMessage = "Email ID is not set.";
-            return false;
-        }
-        if (poEntity.getEmail().isEmpty()){
-            psMessage = "Email is not set.";
+        if (poEntity.getContactNo().isEmpty()){
+            psMessage = "Contact number is not set.";
             return false;
         }
         
