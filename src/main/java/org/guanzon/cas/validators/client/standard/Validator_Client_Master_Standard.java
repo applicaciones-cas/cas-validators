@@ -46,11 +46,6 @@ public class Validator_Client_Master_Standard implements ValidatorInterface {
             return false;
         }
         
-        if (poEntity.getBirthDate() == null){
-            psMessage = "Client birth date is not set.";
-            return false;
-        }
-        
         return true;
     }
 
