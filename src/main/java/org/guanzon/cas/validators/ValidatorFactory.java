@@ -1,5 +1,8 @@
 package org.guanzon.cas.validators;
 
+import org.guanzon.cas.validators.account.Validator_AP_Client_Ledger;
+import org.guanzon.cas.validators.account.Validator_AP_Client_Master;
+import org.guanzon.cas.validators.account.Validator_Account_Accreditation;
 import org.guanzon.cas.validators.client.parameter.Validator_Client_Master;
 import org.guanzon.cas.validators.client.parameter.Validator_Client_Mobile;
 
@@ -14,7 +17,10 @@ public class ValidatorFactory {
         Client_Address,
         Client_Mail,
         Client_Social_Media,
-        Client_Institution_Contact
+        Client_Institution_Contact,
+        Account_Accreditation,
+        AP_Client_Master,
+        AP_Client_Ledger
     }
     public enum ClientTypes {
         PARAMETER,
@@ -29,6 +35,12 @@ public class ValidatorFactory {
                 return new Validator_Client_Master(foValue);
             case Client_Mobile:
                 return new Validator_Client_Mobile(foValue);
+            case Account_Accreditation:
+                return new Validator_Account_Accreditation(foValue);
+            case AP_Client_Master:
+                return new Validator_AP_Client_Master(foValue);
+            case AP_Client_Ledger:
+                return new Validator_AP_Client_Ledger(foValue);
             default:
                 return null;
         }
