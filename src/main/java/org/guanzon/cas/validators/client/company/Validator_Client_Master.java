@@ -39,10 +39,6 @@ public class Validator_Client_Master implements ValidatorInterface {
             psMessage = "Client TIN ID No. is not set.";
             return false;
         }
-        if (poEntity.getLTOIDNumber().isEmpty()){
-            psMessage = "Client LTO ID No. is not set.";
-            return false;
-        }
         
         return true;
     }
