@@ -20,7 +20,9 @@ public class ValidatorFactory {
         Client_Institution_Contact,
         Account_Accreditation,
         AP_Client_Master,
-        AP_Client_Ledger
+        AP_Client_Ledger,
+        AR_Client_Master,
+        AR_Client_Ledger
     }
     public enum ClientTypes {
         PARAMETER,
@@ -40,6 +42,10 @@ public class ValidatorFactory {
             case AP_Client_Master:
                 return new Validator_AP_Client_Master(foValue);
             case AP_Client_Ledger:
+                return new Validator_AP_Client_Ledger(foValue);
+            case AR_Client_Master:
+                return new Validator_AP_Client_Master(foValue);
+            case AR_Client_Ledger:
                 return new Validator_AP_Client_Ledger(foValue);
             default:
                 return null;

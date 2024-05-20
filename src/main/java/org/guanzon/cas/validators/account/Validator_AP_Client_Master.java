@@ -43,6 +43,11 @@ public class Validator_AP_Client_Master implements ValidatorInterface {
             psMessage = "Client since date is not set.";
             return false;
         }
+        
+        if (Double.parseDouble(poEntity.getBeginBal().toString()) <= 0){
+            psMessage = "Client since date is not set.";
+            return false;
+        }
         return true;
     }
     
