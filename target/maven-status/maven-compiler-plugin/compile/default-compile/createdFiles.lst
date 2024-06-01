@@ -8,6 +8,7 @@ org\guanzon\cas\validators\client\company\Validator_Client_Social_Media.class
 org\guanzon\cas\validators\client\company\Validator_Client_Address.class
 org\guanzon\cas\validators\client\parameter\Validator_Client_Address.class
 org\guanzon\cas\validators\client\individual\Validator_Client_Mail.class
+org\guanzon\cas\validators\account\Validator_AR_Client_Master.class
 org\guanzon\cas\validators\ValidatorFactory$TYPE.class
 org\guanzon\cas\validators\account\Validator_AP_Client_Ledger.class
 org\guanzon\cas\validators\client\company\Validator_Client_Mail.class
@@ -20,6 +21,7 @@ org\guanzon\cas\validators\ValidatorInterface.class
 org\guanzon\cas\validators\account\Validator_AP_Client_Master.class
 org\guanzon\cas\validators\client\company\Validator_Client_Mobile.class
 org\guanzon\cas\validators\client\parameter\Validator_Client_Mobile.class
+org\guanzon\cas\validators\account\Validator_AR_Client_Ledger.class
 org\guanzon\cas\validators\client\individual\Validator_Client_Social_Media.class
 org\guanzon\cas\validators\client\parameter\Validator_Client_Mail.class
 org\guanzon\cas\validators\client\parameter\Validator_Client_Master.class
