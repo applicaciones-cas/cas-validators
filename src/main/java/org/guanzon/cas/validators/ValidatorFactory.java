@@ -2,6 +2,8 @@ package org.guanzon.cas.validators;
 
 import org.guanzon.cas.validators.account.Validator_AP_Client_Ledger;
 import org.guanzon.cas.validators.account.Validator_AP_Client_Master;
+import org.guanzon.cas.validators.account.Validator_AR_Client_Ledger;
+import org.guanzon.cas.validators.account.Validator_AR_Client_Master;
 import org.guanzon.cas.validators.account.Validator_Account_Accreditation;
 import org.guanzon.cas.validators.client.parameter.Validator_Client_Master;
 import org.guanzon.cas.validators.client.parameter.Validator_Client_Mobile;
@@ -44,9 +46,9 @@ public class ValidatorFactory {
             case AP_Client_Ledger:
                 return new Validator_AP_Client_Ledger(foValue);
             case AR_Client_Master:
-                return new Validator_AP_Client_Master(foValue);
+                return new Validator_AR_Client_Master(foValue);
             case AR_Client_Ledger:
-                return new Validator_AP_Client_Ledger(foValue);
+                return new Validator_AR_Client_Ledger(foValue);
             default:
                 return null;
         }
