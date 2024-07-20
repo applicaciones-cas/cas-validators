@@ -7,6 +7,8 @@ import org.guanzon.cas.validators.account.Validator_AR_Client_Master;
 import org.guanzon.cas.validators.account.Validator_Account_Accreditation;
 import org.guanzon.cas.validators.client.parameter.Validator_Client_Master;
 import org.guanzon.cas.validators.client.parameter.Validator_Client_Mobile;
+import org.guanzon.cas.validators.inventory.Validator_Inventory;
+import org.guanzon.cas.validators.inventory.Validator_Inventory_General;
 
 /**
  *
@@ -24,13 +26,26 @@ public class ValidatorFactory {
         AP_Client_Master,
         AP_Client_Ledger,
         AR_Client_Master,
-        AR_Client_Ledger
+        AR_Client_Ledger,
+        AUTO,
+        MP,
+        MC,
+        HOSPITALITY,
+        GENERAL
     }
     public enum ClientTypes {
         PARAMETER,
         COMPANY,
         INDIVIDUAL,
         STANDARD;
+    }
+    
+    public enum InventoryTypes {
+        AUTO,
+        MP,
+        MC,
+        HOSPITALITY,
+        GENERAL;
     }
     
     public static ValidatorInterface make(ValidatorFactory.TYPE foType, Object foValue){
@@ -49,6 +64,13 @@ public class ValidatorFactory {
                 return new Validator_AR_Client_Master(foValue);
             case AR_Client_Ledger:
                 return new Validator_AR_Client_Ledger(foValue);
+            case AUTO:
+            case MC:
+            case MP:
+                return new Validator_Inventory(foValue);
+            case HOSPITALITY:
+            case GENERAL:
+                return new Validator_Inventory_General(foValue);
             default:
                 return null;
         }
@@ -119,7 +141,7 @@ public class ValidatorFactory {
                         return null;
                 }
                 
-            case Client_Institution_Contact:
+            case Client_Institution_Contact: 
                 
                 switch (foCType) {
                     case PARAMETER:
@@ -135,4 +157,6 @@ public class ValidatorFactory {
                 return null;
         }
     }
+    
+    
 }
