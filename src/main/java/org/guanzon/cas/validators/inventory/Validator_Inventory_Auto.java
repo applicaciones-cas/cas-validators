@@ -1,7 +1,7 @@
 package org.guanzon.cas.validators.inventory;
 
 import org.guanzon.appdriver.base.GRider;
-import  org.guanzon.cas.model.inventory.Model_Inventory;
+import  org.guanzon.cas.inventory.models.Model_Inventory;
 import org.guanzon.cas.validators.ValidatorInterface;
 
 /**
