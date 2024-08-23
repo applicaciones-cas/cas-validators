@@ -1,37 +1,37 @@
-D:\Guanzon latest\computerized accounting system\cas-validators\src\main\java\org\guanzon\cas\validators\account\Validator_AP_Client_Ledger.java
-D:\Guanzon latest\computerized accounting system\cas-validators\src\main\java\org\guanzon\cas\validators\CasValidators.java
-D:\Guanzon latest\computerized accounting system\cas-validators\src\main\java\org\guanzon\cas\validators\inventory\Validator_Inventory_Genaral_Purchase.java
-D:\Guanzon latest\computerized accounting system\cas-validators\src\main\java\org\guanzon\cas\validators\inventory\Validator_Inventory_MP.java
-D:\Guanzon latest\computerized accounting system\cas-validators\src\main\java\org\guanzon\cas\validators\ValidatorFactory.java
-D:\Guanzon latest\computerized accounting system\cas-validators\src\main\java\org\guanzon\cas\validators\client\standard\Validator_Client_Mobile_Standard.java
-D:\Guanzon latest\computerized accounting system\cas-validators\src\main\java\org\guanzon\cas\validators\client\company\Validator_Client_Master.java
-D:\Guanzon latest\computerized accounting system\cas-validators\src\main\java\org\guanzon\cas\validators\client\individual\Validator_Client_Address.java
-D:\Guanzon latest\computerized accounting system\cas-validators\src\main\java\org\guanzon\cas\validators\client\parameter\Validator_Client_Mail.java
-D:\Guanzon latest\computerized accounting system\cas-validators\src\main\java\org\guanzon\cas\validators\inventory\Validator_Inventory_Master.java
-D:\Guanzon latest\computerized accounting system\cas-validators\src\main\java\org\guanzon\cas\validators\inventory\Validator_Inventory.java
-D:\Guanzon latest\computerized accounting system\cas-validators\src\main\java\org\guanzon\cas\validators\client\parameter\Validator_Client_Master.java
-D:\Guanzon latest\computerized accounting system\cas-validators\src\main\java\org\guanzon\cas\validators\client\individual\Validator_Client_Mobile.java
-D:\Guanzon latest\computerized accounting system\cas-validators\src\main\java\org\guanzon\cas\validators\client\parameter\Validator_Client_Address.java
-D:\Guanzon latest\computerized accounting system\cas-validators\src\main\java\org\guanzon\cas\validators\client\parameter\Validator_Client_Mobile.java
-D:\Guanzon latest\computerized accounting system\cas-validators\src\main\java\org\guanzon\cas\validators\client\parameter\Validator_Client_Social_Media.java
-D:\Guanzon latest\computerized accounting system\cas-validators\src\main\java\org\guanzon\cas\validators\inventory\Validator_Inventory_Hospitality.java
-D:\Guanzon latest\computerized accounting system\cas-validators\src\main\java\org\guanzon\cas\validators\account\Validator_AR_Client_Ledger.java
-D:\Guanzon latest\computerized accounting system\cas-validators\src\main\java\org\guanzon\cas\validators\client\company\Validator_Client_Social_Media.java
-D:\Guanzon latest\computerized accounting system\cas-validators\src\main\java\org\guanzon\cas\validators\client\individual\Validator_Client_Mail.java
-D:\Guanzon latest\computerized accounting system\cas-validators\src\main\java\org\guanzon\cas\validators\client\individual\Validator_Client_Master.java
-D:\Guanzon latest\computerized accounting system\cas-validators\src\main\java\org\guanzon\cas\validators\inventory\Validator_Inventory_MC.java
-D:\Guanzon latest\computerized accounting system\cas-validators\src\main\java\org\guanzon\cas\validators\client\standard\Validator_Client_Address_Standard.java
-D:\Guanzon latest\computerized accounting system\cas-validators\src\main\java\org\guanzon\cas\validators\account\Validator_Account_Accreditation.java
-D:\Guanzon latest\computerized accounting system\cas-validators\src\main\java\org\guanzon\cas\validators\client\company\Validator_Client_Mobile.java
-D:\Guanzon latest\computerized accounting system\cas-validators\src\main\java\org\guanzon\cas\validators\client\company\Validator_Client_Mail.java
-D:\Guanzon latest\computerized accounting system\cas-validators\src\main\java\org\guanzon\cas\validators\account\Validator_AR_Client_Master.java
-D:\Guanzon latest\computerized accounting system\cas-validators\src\main\java\org\guanzon\cas\validators\inventory\Validator_Inventory_Sub_Unit.java
-D:\Guanzon latest\computerized accounting system\cas-validators\src\main\java\org\guanzon\cas\validators\client\standard\Validator_Client_Master_Standard.java
-D:\Guanzon latest\computerized accounting system\cas-validators\src\main\java\org\guanzon\cas\validators\client\parameter\Validator_Client_Institution_Contact.java
-D:\Guanzon latest\computerized accounting system\cas-validators\src\main\java\org\guanzon\cas\validators\inventory\Validator_Inventory_Auto.java
-D:\Guanzon latest\computerized accounting system\cas-validators\src\main\java\org\guanzon\cas\validators\account\Validator_AP_Client_Master.java
-D:\Guanzon latest\computerized accounting system\cas-validators\src\main\java\org\guanzon\cas\validators\client\individual\Validator_Client_Social_Media.java
-D:\Guanzon latest\computerized accounting system\cas-validators\src\main\java\org\guanzon\cas\validators\client\company\Validator_Client_Institution_Contact.java
-D:\Guanzon latest\computerized accounting system\cas-validators\src\main\java\org\guanzon\cas\validators\client\company\Validator_Client_Address.java
-D:\Guanzon latest\computerized accounting system\cas-validators\src\main\java\org\guanzon\cas\validators\inventory\Validator_Inventory_General.java
-D:\Guanzon latest\computerized accounting system\cas-validators\src\main\java\org\guanzon\cas\validators\ValidatorInterface.java
+D:\Guanzon\GMC SEG Folder - Maven\cas-validators\src\main\java\org\guanzon\cas\validators\client\parameter\Validator_Client_Mail.java
+D:\Guanzon\GMC SEG Folder - Maven\cas-validators\src\main\java\org\guanzon\cas\validators\ValidatorInterface.java
+D:\Guanzon\GMC SEG Folder - Maven\cas-validators\src\main\java\org\guanzon\cas\validators\client\parameter\Validator_Client_Master.java
+D:\Guanzon\GMC SEG Folder - Maven\cas-validators\src\main\java\org\guanzon\cas\validators\client\individual\Validator_Client_Master.java
+D:\Guanzon\GMC SEG Folder - Maven\cas-validators\src\main\java\org\guanzon\cas\validators\client\company\Validator_Client_Institution_Contact.java
+D:\Guanzon\GMC SEG Folder - Maven\cas-validators\src\main\java\org\guanzon\cas\validators\inventory\Validator_Inventory_MP.java
+D:\Guanzon\GMC SEG Folder - Maven\cas-validators\src\main\java\org\guanzon\cas\validators\inventory\Validator_Inventory_Hospitality.java
+D:\Guanzon\GMC SEG Folder - Maven\cas-validators\src\main\java\org\guanzon\cas\validators\CasValidators.java
+D:\Guanzon\GMC SEG Folder - Maven\cas-validators\src\main\java\org\guanzon\cas\validators\account\Validator_AR_Client_Master.java
+D:\Guanzon\GMC SEG Folder - Maven\cas-validators\src\main\java\org\guanzon\cas\validators\client\company\Validator_Client_Mail.java
+D:\Guanzon\GMC SEG Folder - Maven\cas-validators\src\main\java\org\guanzon\cas\validators\account\Validator_AP_Client_Master.java
+D:\Guanzon\GMC SEG Folder - Maven\cas-validators\src\main\java\org\guanzon\cas\validators\client\parameter\Validator_Client_Address.java
+D:\Guanzon\GMC SEG Folder - Maven\cas-validators\src\main\java\org\guanzon\cas\validators\ValidatorFactory.java
+D:\Guanzon\GMC SEG Folder - Maven\cas-validators\src\main\java\org\guanzon\cas\validators\client\parameter\Validator_Client_Mobile.java
+D:\Guanzon\GMC SEG Folder - Maven\cas-validators\src\main\java\org\guanzon\cas\validators\client\standard\Validator_Client_Address_Standard.java
+D:\Guanzon\GMC SEG Folder - Maven\cas-validators\src\main\java\org\guanzon\cas\validators\inventory\Validator_Inventory_Master.java
+D:\Guanzon\GMC SEG Folder - Maven\cas-validators\src\main\java\org\guanzon\cas\validators\account\Validator_AR_Client_Ledger.java
+D:\Guanzon\GMC SEG Folder - Maven\cas-validators\src\main\java\org\guanzon\cas\validators\client\individual\Validator_Client_Address.java
+D:\Guanzon\GMC SEG Folder - Maven\cas-validators\src\main\java\org\guanzon\cas\validators\client\individual\Validator_Client_Mobile.java
+D:\Guanzon\GMC SEG Folder - Maven\cas-validators\src\main\java\org\guanzon\cas\validators\inventory\Validator_Inventory_Sub_Unit.java
+D:\Guanzon\GMC SEG Folder - Maven\cas-validators\src\main\java\org\guanzon\cas\validators\client\company\Validator_Client_Mobile.java
+D:\Guanzon\GMC SEG Folder - Maven\cas-validators\src\main\java\org\guanzon\cas\validators\client\individual\Validator_Client_Mail.java
+D:\Guanzon\GMC SEG Folder - Maven\cas-validators\src\main\java\org\guanzon\cas\validators\inventory\Validator_Inventory_General.java
+D:\Guanzon\GMC SEG Folder - Maven\cas-validators\src\main\java\org\guanzon\cas\validators\account\Validator_AP_Client_Ledger.java
+D:\Guanzon\GMC SEG Folder - Maven\cas-validators\src\main\java\org\guanzon\cas\validators\client\individual\Validator_Client_Social_Media.java
+D:\Guanzon\GMC SEG Folder - Maven\cas-validators\src\main\java\org\guanzon\cas\validators\inventory\Validator_Inventory_MC.java
+D:\Guanzon\GMC SEG Folder - Maven\cas-validators\src\main\java\org\guanzon\cas\validators\client\company\Validator_Client_Social_Media.java
+D:\Guanzon\GMC SEG Folder - Maven\cas-validators\src\main\java\org\guanzon\cas\validators\client\standard\Validator_Client_Master_Standard.java
+D:\Guanzon\GMC SEG Folder - Maven\cas-validators\src\main\java\org\guanzon\cas\validators\inventory\Validator_Inventory_Genaral_Purchase.java
+D:\Guanzon\GMC SEG Folder - Maven\cas-validators\src\main\java\org\guanzon\cas\validators\inventory\Validator_Inventory_Auto.java
+D:\Guanzon\GMC SEG Folder - Maven\cas-validators\src\main\java\org\guanzon\cas\validators\client\company\Validator_Client_Address.java
+D:\Guanzon\GMC SEG Folder - Maven\cas-validators\src\main\java\org\guanzon\cas\validators\client\parameter\Validator_Client_Institution_Contact.java
+D:\Guanzon\GMC SEG Folder - Maven\cas-validators\src\main\java\org\guanzon\cas\validators\inventory\Validator_Inventory.java
+D:\Guanzon\GMC SEG Folder - Maven\cas-validators\src\main\java\org\guanzon\cas\validators\client\standard\Validator_Client_Mobile_Standard.java
+D:\Guanzon\GMC SEG Folder - Maven\cas-validators\src\main\java\org\guanzon\cas\validators\client\parameter\Validator_Client_Social_Media.java
+D:\Guanzon\GMC SEG Folder - Maven\cas-validators\src\main\java\org\guanzon\cas\validators\account\Validator_Account_Accreditation.java
+D:\Guanzon\GMC SEG Folder - Maven\cas-validators\src\main\java\org\guanzon\cas\validators\client\company\Validator_Client_Master.java
