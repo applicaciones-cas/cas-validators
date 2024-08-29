@@ -1,9 +1,12 @@
 package org.guanzon.cas.validators;
 
+import java.util.ArrayList;
 import org.guanzon.cas.validators.account.Validator_AP_Client_Ledger;
 import org.guanzon.cas.validators.account.Validator_AP_Client_Master;
 import org.guanzon.cas.validators.account.Validator_AR_Client_Ledger;
 import org.guanzon.cas.validators.account.Validator_AR_Client_Master;
+import org.guanzon.cas.validators.poquotation.Validator_PO_Quotation_Request_Master;
+import org.guanzon.cas.validators.poquotation.Validator_PO_Quotation_Request_Detail;
 import org.guanzon.cas.validators.account.Validator_Account_Accreditation;
 import org.guanzon.cas.validators.client.parameter.Validator_Client_Master;
 import org.guanzon.cas.validators.client.parameter.Validator_Client_Mobile;
@@ -27,6 +30,8 @@ public class ValidatorFactory {
         AP_Client_Ledger,
         AR_Client_Master,
         AR_Client_Ledger,
+        PO_Quotation_Request_Detail,
+        PO_Quotation_Request_Master,
         AUTO,
         MP,
         MC,
@@ -64,6 +69,9 @@ public class ValidatorFactory {
                 return new Validator_AR_Client_Master(foValue);
             case AR_Client_Ledger:
                 return new Validator_AR_Client_Ledger(foValue);
+            
+            case PO_Quotation_Request_Master:
+                return new Validator_PO_Quotation_Request_Master(foValue);   
             case AUTO:
             case MC:
             case MP:
@@ -74,6 +82,18 @@ public class ValidatorFactory {
             default:
                 return null;
         }
+    }
+    
+    public static ValidatorInterface make(ValidatorFactory.TYPE foType, ArrayList foValue){
+        switch (foType) {
+            case PO_Quotation_Request_Detail:
+                return new Validator_PO_Quotation_Request_Detail(foValue);    
+            
+            
+            default:
+                return null;
+        }
+        
     }
     
     
