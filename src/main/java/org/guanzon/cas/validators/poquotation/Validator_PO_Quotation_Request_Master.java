@@ -17,7 +17,6 @@ public class Validator_PO_Quotation_Request_Master implements ValidatorInterface
     String psMessage;
     
     Model_PO_Quotation_Request_Master poEntity;
-    ArrayList<Model_PO_Quotation_Request_Detail> poDetail;
     
     public Validator_PO_Quotation_Request_Master(Object foValue){
         poEntity = (Model_PO_Quotation_Request_Master) foValue;
