@@ -1,6 +1,7 @@
 org\guanzon\cas\validators\CasValidators.class
 org\guanzon\cas\validators\client\individual\Validator_Client_Mobile.class
 org\guanzon\cas\validators\client\standard\Validator_Client_Master_Standard.class
+org\guanzon\cas\validators\inventory\Validator_Inv_Stock_Request_SP_Detail.class
 org\guanzon\cas\validators\ValidatorFactory.class
 org\guanzon\cas\validators\client\standard\Validator_Client_Mobile_Standard.class
 org\guanzon\cas\validators\client\parameter\Validator_Client_Institution_Contact.class
@@ -11,9 +12,11 @@ org\guanzon\cas\validators\client\parameter\Validator_Client_Address.class
 org\guanzon\cas\validators\inventory\Validator_Inventory_Master.class
 org\guanzon\cas\validators\client\individual\Validator_Client_Mail.class
 org\guanzon\cas\validators\account\Validator_AR_Client_Master.class
+org\guanzon\cas\validators\inventory\Validator_Inv_Stock_Request_MC_Detail.class
 org\guanzon\cas\validators\ValidatorFactory$TYPE.class
 org\guanzon\cas\validators\account\Validator_AP_Client_Ledger.class
 org\guanzon\cas\validators\inventory\Validator_Inventory.class
+org\guanzon\cas\validators\inventory\Validator_Inv_Stock_Request_Detail.class
 org\guanzon\cas\validators\client\company\Validator_Client_Mail.class
 org\guanzon\cas\validators\inventory\Validator_Inventory_Sub_Unit.class
 org\guanzon\cas\validators\client\individual\Validator_Client_Master.class
@@ -30,6 +33,7 @@ org\guanzon\cas\validators\inventory\Validator_Inventory_MC.class
 org\guanzon\cas\validators\account\Validator_AR_Client_Ledger.class
 org\guanzon\cas\validators\client\individual\Validator_Client_Social_Media.class
 org\guanzon\cas\validators\inventory\Validator_Inventory_Hospitality.class
+org\guanzon\cas\validators\inventory\Validator_Inv_Stock_Request_Master.class
 org\guanzon\cas\validators\client\parameter\Validator_Client_Mail.class
 org\guanzon\cas\validators\client\parameter\Validator_Client_Master.class
 org\guanzon\cas\validators\client\standard\Validator_Client_Address_Standard.class
@@ -37,5 +41,7 @@ org\guanzon\cas\validators\inventory\Validator_Inventory_General.class
 org\guanzon\cas\validators\ValidatorFactory$InventoryTypes.class
 org\guanzon\cas\validators\inventory\Validator_Inventory_Auto.class
 org\guanzon\cas\validators\account\Validator_Account_Accreditation.class
+org\guanzon\cas\validators\inventory\Validator_Inv_Stock_Request_MC_Master.class
+org\guanzon\cas\validators\inventory\Validator_Inv_Stock_Request_SP_Master.class
 org\guanzon\cas\validators\client\company\Validator_Client_Institution_Contact.class
 org\guanzon\cas\validators\client\company\Validator_Client_Master.class
