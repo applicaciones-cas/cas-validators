@@ -41,16 +41,16 @@ public class Validator_Inv_Stock_Request_MC_Master implements ValidatorInterface
             psMessage = "Category 2 is not set.";
             return false;
         }
-        if (poEntity.getBrandCode().isEmpty()){
+        if (poEntity.getBrandID().isEmpty()){
             psMessage = "Brand is not set.";
             return false;
         }
-        if (poEntity.getModelCode().isEmpty()){
+        if (poEntity.getModelID().isEmpty()){
             psMessage = "Model is not set.";
             return false;
         }
         
-        if (poEntity.getColorCode().isEmpty()){
+        if (poEntity.getColorID().isEmpty()){
             psMessage = "Color is not set.";
             return false;
         }

@@ -42,11 +42,11 @@ public class Validator_Inventory_General implements ValidatorInterface {
             psMessage = "Category 2 is not set.";
             return false;
         }
-        if (poEntity.getBrandCode().isEmpty()){
+        if (poEntity.getBrandID().isEmpty()){
             psMessage = "Brand is not set.";
             return false;
         }
-        if (poEntity.getModelCode().isEmpty()){
+        if (poEntity.getModelID().isEmpty()){
             psMessage = "Model is not set.";
             return false;
         }
