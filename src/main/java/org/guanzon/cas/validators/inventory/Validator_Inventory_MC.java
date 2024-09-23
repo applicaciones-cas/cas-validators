@@ -45,7 +45,7 @@ public class Validator_Inventory_MC implements ValidatorInterface {
             psMessage = "Inventory Type is not set.";
             return false;
         }
-        if (poEntity.getBrandCode().isEmpty()){
+        if (poEntity.getBrandID().isEmpty()){
             psMessage = "Brand is not set.";
             return false;
         }
