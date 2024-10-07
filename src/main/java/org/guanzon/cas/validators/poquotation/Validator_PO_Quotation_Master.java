@@ -27,6 +27,7 @@ public class Validator_PO_Quotation_Master implements ValidatorInterface {
     public void setGRider(GRider foValue) {
         poGRider = foValue;
     }
+    
     @Override
     public boolean isEntryOkay() {
         if (poEntity.getTransactionNumber().isEmpty()){
@@ -37,6 +38,14 @@ public class Validator_PO_Quotation_Master implements ValidatorInterface {
 //            psMessage = "Destination is not set.";
 //            return false;
 //        }
+        if (poEntity.getSupplier().isEmpty()){
+            psMessage = "Supplier is not set.";
+            return false;
+        }
+        if (poEntity.getTermCode().isEmpty()){
+            psMessage = "Terms are not set.";
+            return false;
+        }
         if (poEntity.getCategoryCode().isEmpty()){
             psMessage = "Category is not set.";
             return false;
