@@ -7,6 +7,8 @@ import org.guanzon.cas.validators.account.Validator_AR_Client_Ledger;
 import org.guanzon.cas.validators.account.Validator_AR_Client_Master;
 import org.guanzon.cas.validators.poquotation.Validator_PO_Quotation_Request_Master;
 import org.guanzon.cas.validators.poquotation.Validator_PO_Quotation_Request_Detail;
+import org.guanzon.cas.validators.poquotation.Validator_PO_Quotation_Master;
+import org.guanzon.cas.validators.poquotation.Validator_PO_Quotation_Detail;
 import org.guanzon.cas.validators.account.Validator_Account_Accreditation;
 import org.guanzon.cas.validators.client.parameter.Validator_Client_Master;
 import org.guanzon.cas.validators.client.parameter.Validator_Client_Mobile;
@@ -32,6 +34,8 @@ public class ValidatorFactory {
         AR_Client_Ledger,
         PO_Quotation_Request_Detail,
         PO_Quotation_Request_Master,
+        PO_Quotation_Detail,
+        PO_Quotation_Master,
         AUTO,
         MP,
         MC,
@@ -71,7 +75,9 @@ public class ValidatorFactory {
                 return new Validator_AR_Client_Ledger(foValue);
             
             case PO_Quotation_Request_Master:
-                return new Validator_PO_Quotation_Request_Master(foValue);   
+                return new Validator_PO_Quotation_Request_Master(foValue);  
+            case PO_Quotation_Master:
+                return new Validator_PO_Quotation_Master(foValue);   
             case AUTO:
             case MC:
             case MP:
@@ -88,7 +94,8 @@ public class ValidatorFactory {
         switch (foType) {
             case PO_Quotation_Request_Detail:
                 return new Validator_PO_Quotation_Request_Detail(foValue);    
-            
+            case PO_Quotation_Detail:
+                return new Validator_PO_Quotation_Detail(foValue); 
             
             default:
                 return null;
