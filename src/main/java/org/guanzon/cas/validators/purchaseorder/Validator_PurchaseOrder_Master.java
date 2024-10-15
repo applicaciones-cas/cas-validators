@@ -35,10 +35,8 @@ public class Validator_PurchaseOrder_Master implements ValidatorInterface {
             psMessage = "Destination is not set.";
             return false;
         }
-        if (poEntity.getCategoryCode().isEmpty()){
-            psMessage = "Category is not set.";
-            return false;
-        }
+        
+
         return true;
     }
     
