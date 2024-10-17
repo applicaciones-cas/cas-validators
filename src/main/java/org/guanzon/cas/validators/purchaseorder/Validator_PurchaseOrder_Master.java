@@ -31,11 +31,16 @@ public class Validator_PurchaseOrder_Master implements ValidatorInterface {
             psMessage = "Transaction Number is not set.";
             return false;
         }
+        
         if (poEntity.getDestination().isEmpty()){
             psMessage = "Destination is not set.";
             return false;
         }
         
+        if (!"0".equals(poEntity.getTransactionStatus())) {
+            psMessage = "Transaction Status is not Open";
+            return false;
+        }
 
         return true;
     }

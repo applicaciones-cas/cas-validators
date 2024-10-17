@@ -33,6 +33,10 @@ public class Validator_PurchaseOrder_Detail implements ValidatorInterface {
                 return false;
             }
         }
+        if (poEntities.size() <= 0) {
+            psMessage = "Insert at least 1 row in detail";
+            return false;
+        }
         // Loop through each entity and validate them
         for (Model_PO_Detail poEntity : poEntities) {
             // Validate each entity's fields
