@@ -47,8 +47,7 @@ public class Validator_Inv_Stock_Request_SP_Detail implements ValidatorInterface
 //            psMessage = "Color is not set.";
 //            return false;
 //        }
-        System.out.println("getOrderQuantity = " + poEntity.getOrderQuantity());
-        if (Double.parseDouble(String.valueOf(poEntity.getOrderQuantity()))<=0.0){
+        if (Double.parseDouble(String.valueOf(poEntity.getQuantity()))<=0.0){
             psMessage = "Quantity Request is not set.";
             return false;
         }
