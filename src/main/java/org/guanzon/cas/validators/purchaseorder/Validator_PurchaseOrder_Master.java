@@ -1,5 +1,6 @@
 package org.guanzon.cas.validators.purchaseorder;
 import java.util.ArrayList;
+import org.guanzon.appdriver.agent.ShowMessageFX;
 import org.guanzon.appdriver.base.GRider;
 import org.guanzon.cas.purchasing.model.Model_PO_Master;
 
@@ -41,6 +42,29 @@ public class Validator_PurchaseOrder_Master implements ValidatorInterface {
             psMessage = "Transaction Status is not Open";
             return false;
         }
+        if (poEntity.getSupplier().isEmpty()) {
+            psMessage = "Supplier is not set";
+            return false;
+        }
+        if (poEntity.getMobileNo().isEmpty() ) {
+            psMessage = "Mobile Number is not set";
+            return false;
+        }else if(poEntity.getMobileNo().length()!=11){
+            psMessage = "Mobile Number is not in 11 digits";
+            return false;
+        }else{
+        }
+
+        if (poEntity.getReferenceNo().isEmpty()) {
+            psMessage = "Reference Number is not set";
+            return false;
+        }
+        if (poEntity.getTermName().isEmpty()) {
+            psMessage = "Term is not set";
+            return false;
+        }
+
+
 
         return true;
     }
