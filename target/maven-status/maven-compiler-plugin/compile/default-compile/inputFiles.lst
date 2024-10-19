@@ -6,6 +6,7 @@ D:\Guanzon latest\computerized accounting system\cas-validators\src\main\java\or
 D:\Guanzon latest\computerized accounting system\cas-validators\src\main\java\org\guanzon\cas\validators\poquotation\Validator_PO_Quotation_Request_Master.java
 D:\Guanzon latest\computerized accounting system\cas-validators\src\main\java\org\guanzon\cas\validators\client\individual\Validator_Client_Mobile.java
 D:\Guanzon latest\computerized accounting system\cas-validators\src\main\java\org\guanzon\cas\validators\account\Validator_AR_Client_Ledger.java
+D:\Guanzon latest\computerized accounting system\cas-validators\src\main\java\org\guanzon\cas\validators\purchaseorder\Validator_PurchaseOrder_Detail.java
 D:\Guanzon latest\computerized accounting system\cas-validators\src\main\java\org\guanzon\cas\validators\poquotation\Validator_PO_Quotation_Request_Detail.java
 D:\Guanzon latest\computerized accounting system\cas-validators\src\main\java\org\guanzon\cas\validators\client\individual\Validator_Client_Mail.java
 D:\Guanzon latest\computerized accounting system\cas-validators\src\main\java\org\guanzon\cas\validators\account\Validator_Account_Accreditation.java
@@ -34,6 +35,7 @@ D:\Guanzon latest\computerized accounting system\cas-validators\src\main\java\or
 D:\Guanzon latest\computerized accounting system\cas-validators\src\main\java\org\guanzon\cas\validators\client\parameter\Validator_Client_Social_Media.java
 D:\Guanzon latest\computerized accounting system\cas-validators\src\main\java\org\guanzon\cas\validators\inventory\Validator_Inventory_Hospitality.java
 D:\Guanzon latest\computerized accounting system\cas-validators\src\main\java\org\guanzon\cas\validators\inventory\Validator_Inv_Stock_Request_SP_Detail.java
+D:\Guanzon latest\computerized accounting system\cas-validators\src\main\java\org\guanzon\cas\validators\purchaseorder\Validator_PurchaseOrder_Master.java
 D:\Guanzon latest\computerized accounting system\cas-validators\src\main\java\org\guanzon\cas\validators\inventory\Validator_Inv_Stock_Request_Master.java
 D:\Guanzon latest\computerized accounting system\cas-validators\src\main\java\org\guanzon\cas\validators\inventory\Validator_Inv_Stock_Request_GI_Detail.java
 D:\Guanzon latest\computerized accounting system\cas-validators\src\main\java\org\guanzon\cas\validators\inventory\Validator_Inv_Stock_Request_SP_Master.java
