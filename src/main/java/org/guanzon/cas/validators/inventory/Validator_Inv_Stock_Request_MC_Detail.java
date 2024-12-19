@@ -52,7 +52,7 @@ public class Validator_Inv_Stock_Request_MC_Detail implements ValidatorInterface
 //            psMessage = "Unit Price is not set.";
 //            return false;
 //        }
-        if (Double.parseDouble(poEntity.getQuantity().toString())<=0.0){
+        if (poEntity.getQuantity().equals("")){
             psMessage = "Quantity Request is not set.";
             return false;
         }
